@@ -1,0 +1,70 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    overflow: visible;
+}
+
+#header{
+    text-align: center;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+}
+
+#header h1{
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+#header a{
+    background-color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:  black;
+}
+
+#header a:hover{
+    background: #333;
+    color: white;
+}
+
+#process, #learnings, #link, #question, #answer, #reflection{ 
+    display:flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+#process p, #learnings p, #process ul, #learnings ul, #question p, #answer p, #reflection p{
+    max-width: 600px;
+    line-height: 2;
+}
+
+
+#link h3{
+    margin: 0;
+    padding-bottom: 14px;
+}
+
+#question img{
+    width: 620px;
+}
+
+
+
+
+
+
+
+
+
+
+
